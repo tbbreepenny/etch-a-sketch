@@ -1,4 +1,4 @@
-## Interactive Grid Drawing
+## Etch A Sketch
 This is a simple web application that allows users to interact with a grid of squares. Each square can be hovered over to change its color, and the color progressively darkens with each interaction until it becomes fully black.
 
 ## Features:
