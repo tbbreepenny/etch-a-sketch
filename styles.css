@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 960px; 
+    height: 960px; 
+}
+
+
+.grid-square {
+    background-color: lightblue;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    transition: background-color 0.2s ease;
+}
+
+#clear-btn, #new-grid-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+    #clear-btn:hover, #new-grid-btn:hover {
+        background-color: #0056b3;
+    }
